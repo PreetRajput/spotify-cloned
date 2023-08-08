@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: rgb(183, 175, 175);
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;                                       
+    margin: 30px;
+    border-radius: 10px;
+    overflow: auto;
+    max-width: 800px;
+}
+.tab1{
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: rgb(15, 15, 16);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tab2{
+    grid-area: 2 / 1 / 5 / 4;
+    background-color: rgb(15, 15, 16);
+    margin: 10px;
+    border-radius: 10px;
+}
+.tab3{
+    grid-area: 1 / 4 / 5 / 8;
+    background-color: rgb(15, 15, 16);
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 780px;
+}
+.homeSearchButtons{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homeSearchButtons:hover{
+ opacity: 1;
+}
+.interiorTab{
+    background-color: rgb(26, 26, 26);
+    width: 57%;
+    height: 21%;
+    border-radius: 10px;
+    margin: 10px;
+    border-radius: 10px; 
+}
+.music_buttons{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border: 0px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px
+  }
+  .music_buttons:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  td{
+    padding-left: 40px;
+  }
+  th{
+    text-decoration: underline;
+    display: inline;
+    padding-left: 20px;
+  }
+  th:hover{
+    text-decoration: none;
+  }
+  table {
+   
+  }

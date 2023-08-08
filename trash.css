@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31);
+}
+.box{
+    background-color: pink;
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+nav .move{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(176, 108, 160);
+    line-height: 40px;
+    box-shadow: 0 5px 10px rgb(31, 31, 31);
+}
+.picture{
+    width: 60%;
+    height: 60%;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box h1{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.box p{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#progressBar{
+    -webkit-appearance: none;
+    width: 90%;
+    height: 10px;
+    border: 1px solid black;
+    color: rgb(234, 54, 54);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 25px;
+    margin-top: 0px;
+    background-color: rgb(244, 127, 147);
+}
+#progressBar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: black;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px grey;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgb(230, 104, 125);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: rgb(27, 26, 26);
+    box-shadow: 3px 1px 3px  grey;
+    cursor: pointer;
+}
+.controls div:nth-child(2){
+    transform: scale(1.8);
+}
